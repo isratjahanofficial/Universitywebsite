@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta-verbsport content="width=device-width, initial-scale=1.0">
+        <title>Graduate Admission Form</title>
+        <link rel="stylesheet" href="/Css/style.css">
+</head>
+
+<body>
+
+    <section class="apply-section-grad">
+        <h1>Graduate Admission Form</h1>
+        <p class="subtitle-grad">Apply for Master's / Graduate Programs</p>
+
+        <form class="apply-form-grad">
+
+            <!-- Personal Information -->
+            <h2>Personal Information</h2>
+
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter full name" required>
+
+            <label>Date of Birth:</label>
+            <input type="date" required>
+
+            <label>Gender:</label>
+            <select required>
+                <option value="">Select gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+
+            <label>Email Address:</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Phone Number:</label>
+            <input type="text" placeholder="+8801XXXXXXXXX" required>
+
+            <label>Address:</label>
+            <textarea rows="3" placeholder="Enter your address" required></textarea>
+
+
+            <!-- Academic Information -->
+            <h2>Academic Information</h2>
+
+            <label>Undergraduate Program:</label>
+            <input type="text" placeholder="e.g. B.Sc. in CSE" required>
+
+            <label>University Name:</label>
+            <input type="text" placeholder="e.g. CCN University of Science & Technology" required>
+
+            <label>Bachelor Passing Year:</label>
+            <input type="number" placeholder="e.g. 2024" required>
+
+            <label>CGPA:</label>
+            <input type="text" placeholder="e.g. 3.50" required>
+
+            <!-- Work Experience -->
+            <h2>Work Experience (Optional)</h2>
+
+            <label>Organization Name:</label>
+            <input type="text" placeholder="Enter organization name (if any)">
+
+            <label>Job Title:</label>
+            <input type="text" placeholder="Enter your job title (if any)">
+
+            <label>Work Duration:</label>
+            <input type="text" placeholder="e.g. 1 Year / 6 Months">
+
+
+            <!-- Program Selection -->
+            <h2>Choose Graduate Program</h2>
+
+            <label>Select Graduate Program:</label>
+            <select required>
+                <option value="">Choose Program</option>
+                <option>Master of Computer Science</option>
+                <option>MBA (Master of Business Administration)</option>
+                <option>Master of Law </option>
+                <option>MA in English</option>
+            </select>
+
+
+            <!-- Research Interest -->
+            <h2>Research Interest Area</h2>
+            <textarea rows="3" placeholder="Write briefly about your research interest..." required></textarea>
+
+
+            <!-- Document Upload -->
+            <h2>Upload Your Documents</h2>
+
+            <label>Upload Recent Photo (JPG/PNG):</label>
+            <input type="file" accept="image/*" required>
+
+            <label>Upload Bachelor Transcript (PDF):</label>
+            <input type="file" accept="application/pdf" required>
+
+            <label>Upload Recommendation Letter (PDF):</label>
+            <input type="file" accept="application/pdf">
+
+            <label>Upload CV / Resume (PDF):</label>
+            <input type="file" accept="application/pdf">
+
+            <!-- Submit -->
+            <button type="submit-grad" class="submit-grad-btn">Submit Application</button>
+
+        </form>
+    </section>
+
+</body>
+
+</html>
